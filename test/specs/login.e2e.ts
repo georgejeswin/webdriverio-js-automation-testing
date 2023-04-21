@@ -1,7 +1,7 @@
 import LoginPage from '../pageobjects/login.page'
 import SecurePage from '../pageobjects/secure.page'
 
-describe('My Login application', () => {
+describe('The Internet app Login', () => {
     it('should login with valid credentials', async () => {
         await LoginPage.open()
 
@@ -11,5 +11,3 @@ describe('My Login application', () => {
             'You logged into a secure area!')
     })
 })
-
-
